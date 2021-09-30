@@ -13,7 +13,7 @@ RUN apk add --update --no-cache curl gnupg \
 
 # ---
 
-FROM php:8.0.10-alpine as release
+FROM php:8.0.11-alpine as release
 
 LABEL "repository"="https://github.com/ohartl/docker-deptrac"
 LABEL "homepage"="https://github.com/ohartl/docker-deptrac/"
